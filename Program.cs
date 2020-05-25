@@ -25,6 +25,14 @@ namespace casa
             Console.WriteLine("Hola papa...!!1");
             Console.WriteLine("Pulse la tecla para continuar...");
             Console.ReadKey();
+            //BUCLE while
+            int j = 10;
+            while (j <= 10)
+            {
+                j++;
+                Console.WriteLine("{0}Bienvenidos a GIT ", j);
+                Console.ReadKey();
+            }
         }
     }
 }
