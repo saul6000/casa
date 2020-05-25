@@ -22,6 +22,7 @@ namespace casa
 
             else
                 Console.WriteLine("{0} es mayor", b);
+            Console.WriteLine("Hola papa...!!1");
             Console.WriteLine("Pulse la tecla para continuar...");
             Console.ReadKey();
         }
