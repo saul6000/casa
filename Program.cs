@@ -25,15 +25,36 @@ namespace casa
             Console.WriteLine("Hola papa...!!1");
             Console.WriteLine("Pulse la tecla para continuar...");
             Console.ReadKey();
-            //bucles
-            //bucles for
-            for (int i = 1; i <= 10;i++)
+            //BUCLE while
+            int j = 10;
+            while (j <= 10)
             {
-                Console.WriteLine("Hola {0}", i);
+                j++;
+                Console.WriteLine("{0}Bienvenidos a GIT ", j);
+                Console.ReadKey();
+                //bucle for 
+                //agregar el bucle for (commit - sincronizar)
+                //agregar bucle foreach (commit- sincronizar)
+                //desde repositorio remoto,buscar compartir su proyecto
+                //con el docente
+                //kleberposligua@hotmail.com
+            }
+            //Bucle for
+            for (int m = 1; m <= 3; m++)
+            {
+                Console.WriteLine("Hola papa...!!1", m);
+                Console.ReadKey();
+            }
+            char[] myArray = { 'H', 'e', 'l', 'l', 'o' };
+
+            foreach (char ch in myArray)
+            {
+                Console.WriteLine(ch);
+                Console.ReadKey();
 
             }
-            Console.WriteLine("Pulse la tecla para continuar...");
-            Console.ReadKey();
+            
         }
+      
     }
 }
