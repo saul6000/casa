@@ -13,8 +13,17 @@ namespace casa
             int a;
             a = 10;
             int b = 20;
-            Console.WriteLine("La multiplicacion de {0} x {1} es {2}",a,b,(a * b));
+            Console.WriteLine("La multiplicacion de {0} x {1} es {2}", a, b, (a * b));
             Console.WriteLine("Pulse una tecla para continuar");
             Console.ReadKey();
+            //condicionales
+            if (a > b)
+                Console.WriteLine("{0} es mayor", a);
+
+            else
+                Console.WriteLine("{0} es mayor", b);
+            Console.WriteLine("Pulse la tecla para continuar...");
+            Console.ReadKey();
+        }
     }
 }
