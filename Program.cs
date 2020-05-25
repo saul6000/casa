@@ -25,6 +25,15 @@ namespace casa
             Console.WriteLine("Hola papa...!!1");
             Console.WriteLine("Pulse la tecla para continuar...");
             Console.ReadKey();
+            //bucles
+            //bucles for
+            for (int i = 1; i <= 10;i++)
+            {
+                Console.WriteLine("Hola {0}", i);
+
+            }
+            Console.WriteLine("Pulse la tecla para continuar...");
+            Console.ReadKey();
         }
     }
 }
